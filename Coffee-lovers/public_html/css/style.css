@@ -1,0 +1,43 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 17, 2015, 8:31:10 PM
+    Author     : Rachna Gajre <rgajre@scu.edu>
+*/
+
+/* a set of styles applied to respective tags*/
+html {
+  background-image:url('../images/backgroundImage.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+body{
+
+}
+
+
+/* a set of styles applied to paticular element on the page*/
+#demo{
+
+}
+
+
+/*a set of styles applied to particular element on the page that have a given class name*/
+.demo1{
+}
+
+
+/*a set of styles applied to particular tag on the specified class name */
+img.pagetexture{
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 20px;
+margin-bottom: 20px;
+width: 1100px;
+height: 940px;
+}

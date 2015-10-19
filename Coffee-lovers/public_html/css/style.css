@@ -3,7 +3,7 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
-/* 
+/*
     Created on : Oct 17, 2015, 8:31:10 PM
     Author     : Rachna Gajre <rgajre@scu.edu>
 */
@@ -36,8 +36,27 @@ img.pagetexture{
 display: block;
 margin-left: auto;
 margin-right: auto;
-margin-top: 20px;
+margin-top: 0px;
 margin-bottom: 20px;
 width: 1100px;
 height: 940px;
+}
+
+#header{
+  width:1100px;
+  height:140px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:80px;
+  padding:0px;
+  background-color: rgb(143, 36, 0);
+}
+img.logo{
+  float:left;
+  margin:0px;
+  padding:0px;
+  clear:left;
+  width:400px;
+  height:140px;
 }

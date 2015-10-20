@@ -1,7 +1,9 @@
 html {
   background-image:url('../images/backgroundImage.jpg');
     background-repeat:no-repeat;
-    background-size:cover;
+    background-size:contain;
+   
+    
 }
 
 body{
@@ -29,7 +31,9 @@ margin-right: auto;
 margin-top: 0px;
 margin-bottom: -17px;
 width: 1100px;
-height: 940px;
+height: 595px;
+
+
 }
 
 #header{
@@ -38,7 +42,7 @@ height: 940px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top:80px;
+  /* margin-top:80px;*/
   padding:0px;
   background-color: rgb(143, 36, 0);
 }
@@ -74,6 +78,7 @@ a.signInLink {
     float:right;
     margin-top: 61px;
     margin-right: 25px;
+    color: #FFE4B5;
 }
 
 div.signInModal {
@@ -83,12 +88,12 @@ div.signInModal {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(0,0,0,0.8);
+    background: rgba(128,0,0,0.5);
     z-index: 99999;
     opacity:0;
-    -webkit-transition: opacity 400ms ease-in;
-    -moz-transition: opacity 400ms ease-in;
-    transition: opacity 400ms ease-in;
+    -webkit-transition: opacity;
+    -moz-transition: opacity;
+    transition: opacity ;
     pointer-events: none;
 }
 
@@ -152,7 +157,7 @@ a.close {
 }
 
 a.close:hover {
-    background: #00d9ff;
+    background: #040000;
 }
 
 input.searchText {
@@ -172,23 +177,22 @@ input.searchText {
 
 input.searchButton {
     float:left;
-    margin-top: 55px;    
-    background-color: #6cbb6b;
-    background-image: linear-gradient(#95d788, #6cbb6b);
-    border-radius: 3px 50px 50px 3px;    
+    margin-top: 55px;
+    background-color: #FFDEAD;
+    background-image: linear-gradient(#FFDEAD,#FFE4B5 );
+    border-radius: 3px 50px 50px 3px;
     border-width: 1px;
     border-style: solid;
-    border-color: #7eba7c #578e57 #447d43;
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 
-                0 1px 0 rgba(255, 255, 255, 0.3) inset;
+    border-color: #FFDEAD #FFE4B5;
     height: 34px;
     margin-left: 3px;
     padding: 0;
     width: 90px;
     cursor: pointer;
-    font: bold 14px Arial, Helvetica;
-    color: #23441e;    
-    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+    font: 14px bold;
+    font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: black;
+    
 }
 
 div.signInDiv {
@@ -226,7 +230,7 @@ ul li {
   display: inline-block;
   margin-right: -4px;
   position: relative;
-  padding: 15px 20px;
+  padding : 15px 25px;
   background: #fff;
   cursor: pointer;
   -webkit-transition: all 0.2s;
@@ -279,8 +283,13 @@ footer.siteFooter {
     background-color: rgb(143, 36, 0);
     text-align: center;
     padding: 0px;
+    color:#FFE4B5;
 }
 
 footer.siteFooter > p {
     padding-top: 17px;
+    
+}
+footer.siteFooter > p > a{
+    color:#FFE4B5;
 }

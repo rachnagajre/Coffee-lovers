@@ -1,9 +1,4 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
     <head>
         <title> Coffee Lovers </title>
@@ -17,12 +12,44 @@ and open the template in the editor.
         <div id="wrapper">
         <!-- page header layout -->
         <div id="header">
-          <img class="logo" src="./images/CoffeeLoversLogo.png" alt="logo">
+            <div class="logoDiv">
+                <img class="logo" src="./images/CoffeeLoversLogo.png" alt="logo">
+            </div>  
+            <div class="searchRightDiv">
+                <div class="signInDiv">
+                    <a class="signInLink" href="#openSignInModal">Sign In</a>
+                    <div id="openSignInModal" class="signInModal">
+                        <div>
+                            <a href="#close" title="Close" class="close">X</a>
+                            <fieldset id="signInFieldset">
+                                <p>Already a member? Please sign-in or else sign-up <a href="#">here</a></p>
+                                <form id="signInForm">
+                                    <div id="divUsername">
+                                        <input class="signInTextBox" type="text" id="username" name="username" required placeholder="Username" />
+                                    </div>
+
+                                    <div id="divPassword">
+                                        <input class="signInTextBox" type="password" id="password" name="password" required placeholder="Password" />
+                                    </div>
+
+                                    <div id="divSignIn">
+                                        <input class="signInButton" type="submit" value="Sign-In" />
+                                    </div>
+                                </form>
+                              </fieldset>
+                        </div>                        
+                    </div>
+                </div>
+                <div class="searchDiv">                    
+                    <input class="searchText" type="text" placeholder="Type your search query here">
+                    <input class="searchButton" type="submit" value="Search">
+                </div>                
+            </div>          
         </div> <!--header-->
 
         <!-- page Navigation layout -->
 
-        <nav>
+        <nav class="siteNavBar">
                         <ul>
 	<li>Home</li>
     <li>
@@ -72,7 +99,7 @@ and open the template in the editor.
                 
         
         </nav>
-        <img class="pagetexture" src="./images/woodentexures.jpg" alt="woodentexures">dayab
+        <img class="pagetexture" src="./images/woodentexures.jpg" alt="woodentexures" />
 
         <!-- page image section layout -->
 
@@ -81,7 +108,8 @@ and open the template in the editor.
 
         <!-- page footer layout -->
 
-        <footer>
+        <footer class="siteFooter">
+            <p>Copyright &copy; 2015. All rights reserved. Designed by <a href="#">CoffeeLovers Admin</a> | <a href="#">Privacy Policy</a></p>
         </footer>
 
         </div>

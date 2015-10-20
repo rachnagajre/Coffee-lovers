@@ -1,14 +1,3 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/*
-    Created on : Oct 17, 2015, 8:31:10 PM
-    Author     : Rachna Gajre <rgajre@scu.edu>
-*/
-
-/* a set of styles applied to respective tags*/
 html {
   background-image:url('../images/backgroundImage.jpg');
     background-repeat:no-repeat;
@@ -27,6 +16,7 @@ body{
 
 
 /*a set of styles applied to particular element on the page that have a given class name*/
+
 .demo1{
 }
 
@@ -37,7 +27,7 @@ display: block;
 margin-left: auto;
 margin-right: auto;
 margin-top: 0px;
-margin-bottom: 20px;
+margin-bottom: -17px;
 width: 1100px;
 height: 940px;
 }
@@ -52,6 +42,16 @@ height: 940px;
   padding:0px;
   background-color: rgb(143, 36, 0);
 }
+
+div.logoDiv {
+    float:left;
+    margin:0px;
+    padding:0px;
+    clear:left;
+    width:400px;
+    height:140px;
+}
+
 img.logo{
   float:left;
   margin:0px;
@@ -61,7 +61,226 @@ img.logo{
   height:140px;
 }
 
+div.searchRightDiv {
+    float:right;
+    margin:0px;
+    padding:0px;
+    clear:right;
+    width:700px;
+    height:140px;
+}
+
+a.signInLink {
+    float:right;
+    margin-top: 61px;
+    margin-right: 25px;
+}
+
+div.signInModal {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+div.signInModal:target {
+    opacity:1;
+    pointer-events: auto;
+}
+
+div.signInModal > div {
+    width: 425px;
+    text-align: center;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background: #fff;
+    background: 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    -moz-linear-gradient(#fff, #999);
+    background: 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    -webkit-linear-gradient(#fff, #999);
+    background: 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    -o-linear-gradient(#fff, #999);
+}
+
+fieldset#signInFieldset {
+    border-radius: 10px;
+    width: 395px;
+}
+
+input.signInTextBox {
+    text-align: center;
+    border-radius: 4px;
+}
+
+input.signInButton {
+    width: 80px;
+    border-radius: 4px;
+}
+
+div#divUsername, div#divPassword, div#divSignIn {
+    margin-top: 10px;
+}
+
+a.close {
+    background: #606061;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+}
+
+a.close:hover {
+    background: #00d9ff;
+}
+
+input.searchText {
+    float:left;
+    margin-top: 55px;
+    margin-left: 25px;
+    
+    padding: 5px 9px;
+    height: 20px;
+    width: 250px;
+    border: 1px solid #a4c3ca;
+    font: normal 13px 'trebuchet MS', arial, helvetica;
+    background: #f1f1f1;
+    border-radius: 50px 3px 3px 50px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 rgba(255, 255, 255, 1);
+}
+
+input.searchButton {
+    float:left;
+    margin-top: 55px;    
+    background-color: #6cbb6b;
+    background-image: linear-gradient(#95d788, #6cbb6b);
+    border-radius: 3px 50px 50px 3px;    
+    border-width: 1px;
+    border-style: solid;
+    border-color: #7eba7c #578e57 #447d43;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 
+                0 1px 0 rgba(255, 255, 255, 0.3) inset;
+    height: 34px;
+    margin-left: 3px;
+    padding: 0;
+    width: 90px;
+    cursor: pointer;
+    font: bold 14px Arial, Helvetica;
+    color: #23441e;    
+    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+}
+
+div.signInDiv {
+    float: left;
+    width:300px;
+    height:140px;
+}
+
+div.searchDiv {
+    float:right;
+    width: 400px;
+    height: 140px;
+}
+
 /* nav style */
+nav.siteNavBar{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1100px;
+}
 ul {
 	font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 13px;
@@ -121,4 +340,19 @@ ul li:hover ul {
   display: block;
   opacity: 1;
   visibility: visible;
+}
+
+footer.siteFooter {
+    width:1100px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(143, 36, 0);
+    text-align: center;
+    padding: 0px;
+}
+
+footer.siteFooter > p {
+    padding-top: 17px;
 }

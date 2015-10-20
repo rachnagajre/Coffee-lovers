@@ -105,84 +105,12 @@ div.signInModal > div {
     padding: 5px 20px 13px 20px;
     border-radius: 10px;
     background: #fff;
-    background: 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    background:
     -moz-linear-gradient(#fff, #999);
+    background:
+        -webkit-linear-gradient(#fff, #999);
     background: 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    -webkit-linear-gradient(#fff, #999);
-    background: 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    -o-linear-gradient(#fff, #999);
+        -o-linear-gradient(#fff, #999);
 }
 
 fieldset#signInFieldset {

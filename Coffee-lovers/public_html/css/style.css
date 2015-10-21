@@ -228,10 +228,11 @@ ul {
 }
 ul li {
   font: bold 12px/18px sans-serif;
+  text-transform: uppercase;
   display: inline-block;
-  margin-right: -4px;
+  margin-right: 40px;
   position: relative;
-  padding : 15px 25px;
+  padding : 15px 35px;
   background: #fff;
   cursor: pointer;
   -webkit-transition: all 0.2s;
@@ -249,7 +250,7 @@ ul li ul {
   position: absolute;
   top: 48px;
   left: 0;
-  width: 150px;
+  width: 240px;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;

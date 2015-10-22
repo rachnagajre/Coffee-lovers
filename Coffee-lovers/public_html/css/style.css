@@ -1,7 +1,7 @@
 html {
   background-image:url('../images/backgroundImage.jpg');
     background-repeat:no-repeat;
-    background-size:contain;
+    background-size:cover;
    
     
 }

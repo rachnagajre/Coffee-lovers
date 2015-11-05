@@ -210,7 +210,7 @@ nav.siteNavBar{
     width: 1100px;
     background-color: white;
 }
-ul {
+.siteNavBar ul {
 	font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 13px;
   text-align: left;
@@ -222,7 +222,7 @@ ul {
   -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.12);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.12);
 }
-ul li {
+.siteNavBar ul li {
   font: bold 12px/18px sans-serif;
   text-transform: uppercase;
   display: inline-block;
@@ -237,12 +237,12 @@ ul li {
   -o-transition: all 0.2s;
   transition: all 0.2s;
 }
-ul li:hover {
+.siteNavBar ul li:hover {
   background: #555;
   color: #fff;
   z-index: 4;
 }
-ul li ul {
+.siteNavBar ul li ul {
   padding: 0;
   position: absolute;
   top: 48px;
@@ -260,21 +260,18 @@ ul li ul {
   -o-transition: opacity 0.2s;
   -transition: opacity 0.2s;
 }
-ul li ul li {
+.siteNavBar ul li ul li {
   background: #555;
   display: block;
   color: #fff;
   text-shadow: 0 -1px 0 #000;
 }
-ul li ul li:hover { background: #666; }
-ul li:hover ul {
+.siteNavBar ul li ul li:hover { background: #666; }
+.siteNavBar ul li:hover ul {
   display: block;
   opacity: 1;
   visibility: visible;
 }
-
-
-
 
 
 /* image section */

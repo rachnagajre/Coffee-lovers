@@ -222,6 +222,7 @@ nav.siteNavBar{
   -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.12);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.12);
 }
+
 .siteNavBar ul li {
   font: bold 12px/18px sans-serif;
   text-transform: uppercase;
@@ -237,11 +238,18 @@ nav.siteNavBar{
   -o-transition: all 0.2s;
   transition: all 0.2s;
 }
-.siteNavBar ul li:hover {
+
+.siteNavBar ul li a {
+	text-decoration: none;	
+	color: #000;
+}
+
+.siteNavBar ul li:hover, .siteNavBar ul li a:hover {
   background: #555;
   color: #fff;
   z-index: 4;
 }
+
 .siteNavBar ul li ul {
   padding: 0;
   position: absolute;
@@ -260,13 +268,17 @@ nav.siteNavBar{
   -o-transition: opacity 0.2s;
   -transition: opacity 0.2s;
 }
+.siteNavBar ul li ul li a {
+	color: #fff;
+}
+
 .siteNavBar ul li ul li {
   background: #555;
   display: block;
   color: #fff;
   text-shadow: 0 -1px 0 #000;
 }
-.siteNavBar ul li ul li:hover { background: #666; }
+.siteNavBar ul li ul li:hover, .siteNavBar ul li ul li:hover { background: #666; }
 .siteNavBar ul li:hover ul {
   display: block;
   opacity: 1;
@@ -371,4 +383,72 @@ margin: 0px;
 #siteFooter > p > a{
   margin: 0px;
     color:#FFE4B5;
+}
+
+/* aside left content */
+aside {
+	float:left;
+	width:25%;
+	padding:25px;
+	margin-top:30px;
+	margin-left:30px;
+	background-color:#FFFFFF;
+	font-family:'Trebuchet MS', Arial, Helvetica, sans-serif;
+	color:#333333;
+
+}
+
+aside p {
+	font-size:medium;
+	
+	}
+
+/* Section right content */
+
+section {
+	float:left;
+	width:55%;
+	margin: 30px;
+	padding: 0px 30px 30px 30px;
+	font-family:'Trebuchet MS', Arial, Helvetica, sans-serif;
+	color:#333333;
+	background-color:#FFFFFF;
+}
+
+section h1{
+	font-size:xx-large;
+	font-weight:normal;
+}
+
+/* PMP Style */
+
+.pmp tbody tr td {
+text-align:center;	
+background-color:#EDECEC;
+padding: 10px;
+}
+
+.pmpProductBox img {
+    width: 75%;
+	
+}
+
+.pmpProductBox p, .pmpProductBox h4 {
+    margin: 0 0 5px 0;
+}
+
+.pmpProductBox button {
+      color: white;
+    background-color: brown;
+    border-width: 1px;
+    border-color: #333333;
+    border-radius: 3px;
+    padding: 5px 10px 5px 10px;
+    font-size: small;
+}
+.pmpProductBox button:hover {
+    background-color:#92320C;
+}
+.pmpProductBox button:active {
+    background-color:#C22D05;
 }

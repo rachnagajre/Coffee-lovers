@@ -13,7 +13,7 @@ body{
   margin-right: auto;
   margin-top: 0px;
   width: 1100px;
-  height: 700px;
+  height: 1200px;
 }
 
 /* header */
@@ -161,6 +161,44 @@ input.searchText {
     border-radius: 50px 3px 3px 50px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 rgba(255, 255, 255, 1);
 }
+.cartTop{
+  padding-top: 60px;
+  padding-left: 180px;
+}
+#cartClick {
+  display: none;
+}
+#test {
+  position: relative;
+  z-index: 2;
+}
+
+#cartClick:target {
+  display: block;
+  float: right;
+}
+.checkTable{
+  display: block;
+  color: white;
+  float:right;
+  padding: 30px;
+  }
+table.checkTable{
+  background-color: rgb(143, 36, 0);
+}
+.checkbutton{
+  color: white;
+background-color:inherit;
+border-width: 1px;
+border-color: white;
+border-radius: 3px;
+padding: 5px 10px 5px 10px;
+font-size: small;
+}
+img.cartTop{
+  width: 20px;
+  height: 20px;
+}
 
 input.searchButton {
     float:left;
@@ -240,7 +278,7 @@ nav.siteNavBar{
 }
 
 .siteNavBar ul li a {
-	text-decoration: none;	
+	text-decoration: none;
 	color: #000;
 }
 
@@ -249,7 +287,6 @@ nav.siteNavBar{
   color: #fff;
   z-index: 4;
 }
-
 .siteNavBar ul li ul {
   padding: 0;
   position: absolute;
@@ -366,7 +403,7 @@ margin: 0px;
 #siteFooter {
     width:1100px;
     display: block;
-      margin-top: 500px;
+      margin-top: 970px;
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(143, 36, 0);
@@ -379,6 +416,10 @@ margin: 0px;
     padding-top: 17px;
     padding-bottom:10px;
     margin: 0px;
+}
+#siteFoote,img {
+width: 30px;
+height: 30px;
 }
 #siteFooter > p > a{
   margin: 0px;
@@ -400,7 +441,7 @@ aside {
 
 aside p {
 	font-size:medium;
-	
+
 	}
 
 /* Section right content */
@@ -419,18 +460,21 @@ section h1{
 	font-size:xx-large;
 	font-weight:normal;
 }
+section img{
+  height: 70%;
+	}
 
 /* PMP Style */
 
 .pmp tbody tr td {
-text-align:center;	
+text-align:center;
 background-color:#EDECEC;
 padding: 10px;
 }
 
 .pmpProductBox img {
     width: 75%;
-	
+
 }
 
 .pmpProductBox p, .pmpProductBox h4 {

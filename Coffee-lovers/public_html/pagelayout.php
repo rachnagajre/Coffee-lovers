@@ -52,48 +52,48 @@
         <li>
             By Type
             <ul>
-                <li><a href="icedCoffee.php">Iced Coffee</a></li>
-                <li>Expresso</li>
-                <li>Organic</li>
-                <li>Decaffeinated</li>
+                <li><a href="TY_icedCoffee.php">Iced Coffee</a></li>
+                <li><a href="TY_expresso.php">Expresso</a></li>
+                <li><a href="TY_organic.php">Organic</a></li>
+                <li><a href="TY_decaffeinated.php">Decaffeinated</a></li>
             </ul>
         </li>
 
         <li>
             By Roast
             <ul>
-                <li>Light</li>
-                <li>Medium</li>
-                <li>Dark</li>
+                <li><a href="RO_light.php">Light</a></li>
+                <li><a href="RO_medium.php">Medium</a></li>
+                <li><a href="RO_dark.php">Dark</a></li>
             </ul>
         </li>
 
         <li>
             By Region
             <ul>
-                <li>Central American</li>
-                <li>South American</li>
-                <li>Indonesian</li>
-                <li>African</li>
+                <li><a href="RE_centralAmerican.php">Central American</a></li>
+                <li><a href="RE_southAmerican.php">South American</a></li>
+                <li><a href="RE_indonesian.php">Indonesian</a></li>
+                <li><a href="RE_african.php">African</a></li>
             </ul>
         </li>
 
         <li>
             Surprise Boxes
             <ul>
-                <li>How does it work?</li>
-                <li>Last Boxes</li>
-                <li>Subcscribe</li>
+                <li><a href="SB_howItWorks.php">How does it work?</a></li>
+                <li><a href="SB_lastBoxes.php">Last Boxes</a></li>
+                <li><a href="SB_subscribe.php">Subscribe</a></li>
             </ul>
         </li>
 
         <li>
             Gift Cards
             <ul>
-                <li>Send to a Friend</li>
-                <li>Corporate Cards</li>
-                <li>Redeem</li>
-                <li>Buy Gift Cards</li>
+                <li><a href="GF_sendFriend.php">Send to a Friend</a></li>
+                <li><a href="GF_corporateCards.php">Corporate Cards</a></li>
+                <li><a href="GF_redeem.php">Redeem</a></li>
+                <li><a href="GF_buyGiftCards.php">Buy Gift Cards</a></li>
             </ul>
         </li>
     </ul>

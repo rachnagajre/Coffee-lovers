@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<products>
+	<item id="1">
+		<name>Test</name>
+		<price>14.90</name>
+		<image>coffee1.png</image>
+		<desc>Description</desc>
+		<type>Iced Coffee</type>
+		<roast>Light</roast>
+		<region>African</region>
+	</item>
+	<item id="2">
+		<name>Testing</name>
+		<price>19.90</name>
+		<image>coffee1.png</image>
+		<desc>Description</desc>
+		<type>Iced Coffee</type>
+		<roast>Light</roast>
+		<region>African</region>
+	</item>
+	<item id="3">
+		<name>Testee</name>
+		<price>14.90</name>
+		<image>coffee1.png</image>
+		<desc>Description</desc>
+		<type>Iced Coffee</type>
+		<roast>Light</roast>
+		<region>African</region>
+	</item>
+	<item id="4">
+		<name>Test a2</name>
+		<price>19.90</name>
+		<image>coffee1.png</image>
+		<desc>Description</desc>
+		<type>Iced Coffee</type>
+		<roast>Light</roast>
+		<region>African</region>
+	</item>
+	<item id="5">
+		<name>Test</name>
+		<price>14.90</name>
+		<image>coffee1.png</image>
+		<desc>Description</desc>
+		<type>Iced Coffee</type>
+		<roast>Light</roast>
+		<region>African</region>
+	</item>
+	<item id="6">
+		<name>Test test</name>
+		<price>14.90</name>
+		<image>coffee1.png</image>
+		<desc>Description</desc>
+		<type>Iced Coffee</type>
+		<roast>Light</roast>
+		<region>African</region>
+	</item>
+	<item id="7">
+		<name>Test asd</name>
+		<price>8.90</name>
+		<image>coffee1.png</image>
+		<desc>Description</desc>
+		<type>Iced Coffee</type>
+		<roast>Light</roast>
+		<region>African</region>
+	</item>
+	<item id="8">
+		<name>Tesasd</name>
+		<price>29.90</name>
+		<image>coffee1.png</image>
+		<desc>Description</desc>
+		<type>Iced Coffee</type>
+		<roast>Light</roast>
+		<region>African</region>
+	</item>
+	<item id="9">
+		<name>Testas</name>
+		<price>4.90</name>
+		<image>coffee1.png</image>
+		<desc>Description</desc>
+		<type>Iced Coffee</type>
+		<roast>Light</roast>
+		<region>African</region>
+	</item>
+</products>

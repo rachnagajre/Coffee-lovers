@@ -1,4 +1,11 @@
+<!-- author: rutvi, rachna, akshata gustavo -->
 <!-- page header layout -->
+<?php
+session_start();
+include_once("config.php");
+//current URL of the Page. cart_update.php redirects back to this URL
+$current_url = urlencode($url="http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']);
+?>
 <div id="header">
     <div class="logoDiv">
         <img class="logo" src="./image/CoffeeLoversLogo.png" alt="logo">
@@ -6,7 +13,7 @@
     <div class="searchRightDiv">
         <div class="signInDiv">
             <a class="signInLink" href="#openSignInModal">Sign In</a>
-            <a href="#cartClick">
+            <a href="#" onClick="document.getElementById('cartClick').style.display = 'block';">
                 <img class="cartTop" src="./image/marker20.png" title="cart-item">
             </a>
             <div id="cartClick">
@@ -49,7 +56,7 @@
 <div class="siteNavBar" id="siteNavBar">
     <ul>
         <li><a href="index.php">Home</a></li>
-        <li>
+         <li>
             By Type
             <ul>
                 <li><a href="TY_icedCoffee.php">Iced Coffee</a></li>

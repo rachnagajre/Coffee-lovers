@@ -1,7 +1,7 @@
 <!--author: gustavo-->
 <?php
 // Filter by anything you want. It will be injected in the query.
-$filter="WHERE category='Coffee' AND type='Iced Coffee'";
+$filter="WHERE category='Coffee' AND region='Medium'";
 ?>
 <!DOCTYPE html>
 <html>
@@ -66,10 +66,10 @@ $products_item .= '</tr></tbody></table>';
         <!-- page image section layout -->
         <aside>
             <h1>Description</h1>
-            <p>Iced coffee may be served already chilled, or poured hot over ice. Because sugar doesn't dissolve readily into cold liquids, it must be added directly to the hot base, or to the finished product in the form of syrup.</p>
+            <p>South American Coffee imported to you, buy and taste our different flavors. These type of coffees are usually more sweet and kind of reminds a candy.</p>
         </aside>
         <section>
-            <h1>Iced Coffee</h1>
+          <h1>South American Coffee</h1>
 			<?php
 			echo $products_item;
 			?>

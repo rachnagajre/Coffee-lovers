@@ -1,3 +1,4 @@
+<!--author: Rachna-->
 <div id ="siteFooter">
     <p>Copyright &copy; 2015. All rights reserved. Designed by <a href="#">CoffeeLovers Admin</a> | <a href="#">Privacy Policy</a> |
         <a href="https://www.facebook.com/" target="_blank">

@@ -1,20 +1,21 @@
+/*author: Team 6*/
 html {
-    background-image:url('../image/backgroundImage.jpg');
-    background-repeat:repeat;
-    background-size:contain;
-
-
+  background-image:url('../image/backgroundImage.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
 }
+
 
 body{
-    background-image:url('../image/woodentexures.jpg');
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0px;
-    width: 1100px;
-    height: 1200px;
+  background-image:url('../image/woodentexures.jpg');
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  width: 1100px;
+  height: 700px;
 }
+
 
 /* header */
 
@@ -66,6 +67,7 @@ a.signInLink {
     margin-top: 61px;
     margin-right: 25px;
     color: #FFE4B5;
+    text-decoration: none;
 }
 
 div.signInModal {
@@ -91,33 +93,46 @@ div.signInModal:target {
 
 div.signInModal > div {
     width: 425px;
+    height: 180px;
     text-align: center;
     position: relative;
-    margin: 10% auto;
+    margin: 20% auto;
     padding: 5px 20px 13px 20px;
     border-radius: 10px;
-    background: #fff;
+    background: #FFDEAD;
+    border-style: ridge;
+    border: 8px solid rgb(143, 36, 0);
+    border-radius: 5px;
     background:
-        -moz-linear-gradient(#fff, #999);
+        -moz-linear-gradient(#FFDEAD, #ff9966)
     background:
-        -webkit-linear-gradient(#fff, #999);
+        -webkit-linear-gradient(#FFDEAD, #ff9966);
     background:
-        -o-linear-gradient(#fff, #999);
+        -o-linear-gradient(#FFDEAD, #ff9966);
 }
 
 fieldset#signInFieldset {
     border-radius: 10px;
+    border-color: rgb(143, 36, 0);
     width: 395px;
+    height: 140px;
+    margin-top: 11px;
 }
 
 input.signInTextBox {
     text-align: center;
     border-radius: 4px;
+    border-color: rgb(143, 36, 0); 
+    border-style: ridge;
 }
 
 input.signInButton {
     width: 80px;
     border-radius: 4px;
+    border-color: rgb(143, 36, 0); 
+    border-style: ridge;
+    background-color: rgb(143, 36, 0);
+    color: white;
 }
 
 div#divUsername, div#divPassword, div#divSignIn {
@@ -403,7 +418,7 @@ input#slide_5{
 #siteFooter {
     width:1100px;
     display: block;
-    margin-top: 970px;
+    margin-top: 490px;
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(143, 36, 0);
@@ -487,6 +502,7 @@ section img{
     border-width: 1px;
     border-color: #333333;
     border-radius: 3px;
+    margin: 5px 0px 0px 0px;
     padding: 5px 10px 5px 10px;
     font-size: small;
 }
@@ -498,24 +514,100 @@ section img{
 }
 
 .error {color: #FF0000;}
+.success {color: green;}
+
 #signUpDiv{
-    margin-top: 50px;
+    margin-top: 0px;
     margin-left: 180px;
     padding-top: 80px;
     padding-left: 80px;
 }
 #signUpFieldSet{
   width: 550px;
-  height: 300px;
+  height: 350px;
   background-color:#FFDEAD;  
   border-style: ridge;
   border: 8px solid rgb(143, 36, 0);
   border-radius: 5px;
 }
 .signUpButton{
-    border-radius: 8px;
+    display:block;
+    text-align:center;
+    border-radius: 4px;
     border-color: rgb(143, 36, 0); 
     border-style: ridge;
     background-color: rgb(143, 36, 0);
     color: white;
+}
+.signUpButton > input[type=submit]{
+   width: 20px;
+}
+
+#signUpTable td:nth-child(2){
+    border-radius: 4px;
+    border-color: rgb(143, 36, 0); 
+    border-style: ridge;
+    color:black;
+}
+#signUpTable input[type="text"]{
+    width: 200px;
+}
+#signUpTable input[type="date"]{
+    width: 200px;
+}
+#signUpTable input[type="password"]{
+    width: 200px;
+}
+#signUpTable input[type="submit"]{
+    width: 90px;
+    text-align: center;
+    margin-left: 180px;
+}
+
+/* View Cart box pop up */
+#view-cart{
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(143, 36, 0);
+    padding: 15px;
+    box-shadow: 0px 0px 10px #333333;
+    border-radius: 10px;
+	z-index: 300;
+    position: relative;
+    width: 350px;
+}
+#view-cart table{
+    border-spacing: 0;
+    width: 350px;
+}
+#view-cart tbody tr td {
+	color:#333333;
+    text-align:center;
+    background-color:#EDECEC;
+    padding: 10px;
+	font-size: small;
+}
+#view-cart button {
+    color: white;
+    background-color: brown;
+    border-width: 1px;
+    border-color: #333333;
+    border-radius: 3px;
+    margin: 5px 0px 0px 0px;
+    padding: 5px 10px 5px 10px;
+    font-size: small;
+}
+#view-cart button:hover {
+    background-color:#92320C;
+}
+#view-cart button:active {
+    background-color:#C22D05;
+}
+#view-cart button a{
+    text-decoration: none;
+	color: white;
+}
+#view-cart p{
+	margin: 0;
+	font-size: medium;
 }
